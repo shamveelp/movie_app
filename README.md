@@ -1,12 +1,33 @@
-# React + Vite
+# 🎬 React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Movie Search and Favorites App built with **React**. It fetches popular movies from **The Movie Database (TMDB)** and allows users to search for movies and add/remove them from their favorites list.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search movies using keywords
+- 📄 View popular movies fetched from TMDB
+- ❤️ Mark/unmark movies as favorites
+- 💾 Persist favorite movies using React Context
+- 🎨 Responsive design with CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React (Functional Components + Hooks)
+- 📦 React Router (for page navigation)
+- 🌐 TMDB API
+- 🧠 React Context API (for global state management)
+- 💅 Custom CSS styling
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/react-movie-app.git
+cd react-movie-app
